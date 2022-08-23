@@ -138,4 +138,5 @@ Partial Class FrmSplashScreen
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
 
+    
 End Class
