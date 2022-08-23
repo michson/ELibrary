@@ -33,7 +33,6 @@ Partial Class FrmSplashScreen
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        
         '
         'Label1
         '
