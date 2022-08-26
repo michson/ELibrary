@@ -1,4 +1,4 @@
-﻿Public Class FrmSplashScreen
+W2﻿Public Class FrmSplashScreen
     Dim SAPI = CreateObject("SAPI.spvoice")
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         ProgressBar1.Increment(3)
@@ -6,7 +6,6 @@
             Timer1.Stop()
             FrmMainPage.Show()
             Me.Hide()
-
         End If
     End Sub
 
