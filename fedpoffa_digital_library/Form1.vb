@@ -1,4 +1,4 @@
-W2﻿Public Class FrmSplashScreen
+W2W2﻿Public Class FrmSplashScreen
     Dim SAPI = CreateObject("SAPI.spvoice")
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         ProgressBar1.Increment(3)
@@ -15,4 +15,5 @@ W2﻿Public Class FrmSplashScreen
         SAPI.speak("please wait,some seconds to load")
     End Sub
 End Class
+
 
