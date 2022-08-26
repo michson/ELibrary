@@ -7,7 +7,6 @@
             FrmMainPage.Show()
             Me.Hide()
 
-
         End If
     End Sub
 
