@@ -7,6 +7,7 @@
             FrmMainPage.Show()
             Me.Hide()
 
+
         End If
     End Sub
 
@@ -16,3 +17,4 @@
         SAPI.speak("please wait,some seconds to load")
     End Sub
 End Class
+
