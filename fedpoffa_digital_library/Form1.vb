@@ -8,7 +8,6 @@ W2﻿Public Class FrmSplashScreen
             Me.Hide()
         End If
     End Sub
-
     Private Sub FrmSplashScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ProgressBar1.Show()
         Timer1.Start()
