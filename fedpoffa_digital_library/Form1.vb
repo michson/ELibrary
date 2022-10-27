@@ -9,6 +9,7 @@ Public Class FrmSplashScreen
         End If
     End Sub
 
+    
     Private Sub FrmSplashScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ProgressBar1.Show()
         Timer1.Start()
