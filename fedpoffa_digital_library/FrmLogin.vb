@@ -16,6 +16,7 @@ Public Class FrmLogin
     Public Connector As String
     Public ConnectMe As String
 
+
     Public Sub connectionString()
         Try
             Connector = " Data Source=C:\Users\Hi-Tech\Documents\visual studio 2012\Projects\fedpoffa_digital_library\fedpoffa_digital_library\Database\DBase.sdf; Persist Security Info=false"
