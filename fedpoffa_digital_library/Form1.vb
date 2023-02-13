@@ -1,4 +1,4 @@
-
+6
 Public Class FrmSplashScreen
     Dim SAPI = CreateObject("SAPI.spvoice")
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -16,6 +16,7 @@ Public Class FrmSplashScreen
         SAPI.speak("please wait,some seconds to load")
     End Sub
 End Class
+
 
 
 
